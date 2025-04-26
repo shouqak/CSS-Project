@@ -302,7 +302,7 @@ nav ul li a:hover {
 }
 
 .contact-section button:hover {
-    background-color: #f9e79f;
+  background-color: #f9e79f;
 }
 
 footer {
@@ -332,4 +332,42 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #f5b060;
+}
+.about-section {
+  text-align: center;
+  height: 80vh;
+  justify-content: center;
+    align-items: center;
+    
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffeea9;
+   align-items: center;
+    height: 80vh;
+  width: 80%;
+  border-radius: 25px;
+  gap: 5%;
+  padding: 0 7%;
+  margin: 2% auto;
+}
+.about-section h2 {
+  color: #ffa037;
+  font-size: 4rem;
+  margin: 2% 0;
+}
+.author-image{
+    width: 25%;
+    height: auto;
+    border-radius: 25px;
+}
+.about-text{
+    width: 70%;
+    height: auto;
+    color: #ff7d29;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 2%;
+    border-radius: 25px;
 }
