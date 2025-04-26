@@ -261,14 +261,16 @@ border-radius: 25px;
 
 footer {
     background-color: #ffeea9;
-    padding: 20px;
     text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer h3 {
     color: #ffa037;
-    margin-bottom: 10px;
-}
+    margin: 1% 0;}
 
 footer ul {
     list-style: none;
