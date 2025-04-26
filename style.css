@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    /*box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+
 }
 
 
@@ -220,7 +220,11 @@ nav ul li a:hover {
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
+.interview-cards a{
+    text-decoration: none;
+    color: black
 
+}
 .interview-card:hover {
     background-color: #f9e79f;
     transform: translateY(-5px);
@@ -314,6 +318,10 @@ footer ul li a:hover {
     color: #f5b060;
 }
 
+
+footer ul li a:hover {
+  color: #f5b060;
+}
 
 .about-section {
     text-align: center;

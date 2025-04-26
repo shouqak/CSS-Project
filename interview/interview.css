@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #feffd2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffeea9;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffa037;
+    font-size: 1.5rem;
+  }
+  
+  nav ul li a:hover {
+    color: #f5b060;
+  }
+  
+.interview {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.interview h2 {
+    color: #ffa037;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;}
+
+.interview-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.interview-image {
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.interview-text {
+    text-align: left;
+    max-width: 60%;
+    line-height: 1.8;
+}
+
+.interview-text p {
+    margin-bottom: 1rem;
+}
+
+.interview-text span {
+    color: #ffa037;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffeea9;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  footer h3 {
+    color: #ffa037;
+    margin: 1% 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #ffa037;
+  }
+  footer ul li a:hover {
+    color: #f5b060;
+  }
