@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -118,7 +118,7 @@ nav ul li a:hover {
     border: 1px solid #ffa037;
     border-radius: 0.9375rem;
     padding: 1rem;
-    width: 18rem; 
+    width: 18rem;
     height: 38rem;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 1em;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -220,11 +220,12 @@ nav ul li a:hover {
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.interview-cards a{
+
+.interview-cards a {
     text-decoration: none;
     color: black
-
 }
+
 .interview-card:hover {
     background-color: #f9e79f;
     transform: translateY(-5px);
@@ -320,7 +321,7 @@ footer ul li a:hover {
 
 
 footer ul li a:hover {
-  color: #f5b060;
+    color: #f5b060;
 }
 
 .about-section {
