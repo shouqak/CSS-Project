@@ -92,35 +92,6 @@ nav ul li a:hover {
 }
 
 footer {
-<<<<<<<<< Temporary merge branch 1
-    background-color: #ffeea9;
-    text-align: center;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  footer h3 {
-    color: #ffa037;
-    margin: 1% 0;
-  }
-  
-  footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  footer ul li a {
-    text-decoration: none;
-    color: #ffa037;
-  }
-  footer ul li a:hover {
-    color: #f5b060;
-  }
-=========
   background-color: #ffe082;
   text-align: center;
   height: 20vh;
@@ -149,4 +120,3 @@ footer ul li a {
 footer ul li a:hover {
   color: #ffb74d;
 }
->>>>>>>>> Temporary merge branch 2
