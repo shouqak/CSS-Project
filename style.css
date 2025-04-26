@@ -236,7 +236,7 @@ nav ul li a:hover {
 .interview-content {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 3rem;
     justify-content: center;
     margin-top: 1rem;
     font-size: 0.95rem;
@@ -257,7 +257,8 @@ nav ul li a:hover {
 
 .contact-section {
     text-align: center;
-    padding: 4rem 1rem;
+    width: 100%;
+    padding: 2rem 1rem;
 }
 
 .contact-section h2 {
