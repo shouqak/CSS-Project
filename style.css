@@ -1,569 +1,569 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
-  background: #fffce8;
-  color: #333;
-  line-height: 1.6;
-  overflow-x: hidden;
-  margin: auto;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fffce8;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: auto;
 }
 
 header {
-  background-color: #ffeea9;
-  padding: 0.75rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffeea9;
+    padding: 0.75rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo {
-  height: 3.125rem;
-  border-radius: 50%;
-  object-fit: cover;
+    height: 3.125rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 nav ul {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  justify-content: center;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-  font-weight: bold;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    font-weight: bold;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #ffa037;
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: #ffa037;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #f5b060;
+    color: #f5b060;
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./image/hero.png") no-repeat center center / cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./image/hero.png") no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  max-width: 800px;
-  margin-bottom: 1.5rem;
-  line-height: 1.2;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-size: 3.5rem;
+    font-weight: 700;
+    max-width: 800px;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .hero button {
-  background: linear-gradient(135deg, #ffa037, #ff7d29);
-  color: white;
-  font-size: 1.25rem;
-  padding: 0.75rem 2rem;
-  border: none;
-  border-radius: 2rem;
-  cursor: pointer;
-  margin-top: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #ffa037, #ff7d29);
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .hero button:hover {
-  background: linear-gradient(135deg, #f5b060, #ff8f4d);
-  transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(135deg, #f5b060, #ff8f4d);
+    transform: translateY(-3px) scale(1.05);
 }
 
 .hero button:hover {
-  background-color: #f5b060;
-  transform: scale(1.05);
+    background-color: #f5b060;
+    transform: scale(1.05);
 }
 
 .books-section {
-  text-align: center;
-  padding: 4rem 1rem;
+    text-align: center;
+    padding: 4rem 1rem;
 }
 
 .books-section h2 {
-  margin-bottom: 2rem;
-  color: #ffa037;
-  font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffa037;
+    font-size: 2.5rem;
 }
 
 .book-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .book-card {
-  background-color: #fff3c4;
-  border: 1px solid #ffa037;
-  border-radius: 0.9375rem;
-  padding: 1rem;
-  width: 300px;
-  /* Fixed width */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff3c4;
+    border: 1px solid #ffa037;
+    border-radius: 0.9375rem;
+    padding: 1rem;
+    width: 300px;
+    /* Fixed width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .book-card:hover {
-  background-color: #f9e79f;
-  transform: translateY(-5px);
+    background-color: #f9e79f;
+    transform: translateY(-5px);
 }
 
 .book-card img {
-  width: 100%;
-  height: 350px;
-  object-fit: contain;
-  border-radius: 0.825rem;
-  margin-bottom: 1rem;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 0.825rem;
+    margin-bottom: 1rem;
 }
 
 .book-title {
-  color: orange;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-  min-height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    color: orange;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .book-desc {
-  font-size: 0.9rem;
-  color: #c07d47;
-  padding: 0 0.5rem;
-  margin-bottom: 1rem;
-  overflow: hidden;
-  text-align: center;
+    font-size: 0.9rem;
+    color: #c07d47;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-align: center;
 }
 
 .buy-button {
-  background-color: orange;
-  border: none;
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 2rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-  margin-top: auto;
-  transition: background-color 0.3s ease;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
 }
 
 .buy-button:hover {
-  background-color: #f5b060;
+    background-color: #f5b060;
 }
 
 .interview-section {
-  padding: 4rem 1rem;
-  text-align: center;
+    padding: 4rem 1rem;
+    text-align: center;
 }
 
 .interview-section h2 {
-  color: #ffa037;
-  font-size: 2.75rem;
-  margin-bottom: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
+    color: #ffa037;
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .interview-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  background: linear-gradient(135deg, #ffbf78, #ffd9a3);
-  padding: 3rem 2rem;
-  justify-content: center;
-  border-radius: 1.5rem;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: linear-gradient(135deg, #ffbf78, #ffd9a3);
+    padding: 3rem 2rem;
+    justify-content: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .interview-card {
-  background-color: white;
-  border: none;
-  border-radius: 1rem;
-  width: 18rem;
-  padding: 1.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    width: 18rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .interview-cards a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .interview-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .interview-content {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  justify-content: center;
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  color: #555;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #555;
 }
 
 .interview-card h3 {
-  font-size: 1.2rem;
-  color: #ffa037;
-  font-weight: bold;
-  margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ffa037;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .icon {
-  width: 2rem;
-  height: auto;
+    width: 2rem;
+    height: auto;
 }
 
 .contact-section {
-  text-align: center;
-  padding: 4rem 1rem;
+    text-align: center;
+    padding: 4rem 1rem;
 }
 
 .contact-section h2 {
-  color: #ffa037;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+    color: #ffa037;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contact-section form {
-  background-color: #ffbf78;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 2rem;
-  border-radius: 1.5rem;
-  max-width: 30rem;
-  margin: 0 auto;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffbf78;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section input,
 .contact-section textarea {
-  padding: 0.75rem;
-  border-radius: 0.625rem;
-  border: none;
-  background: #fff;
+    padding: 0.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #fff;
 }
 
 .contact-section button {
-  background-color: #ffeea9;
-  color: #ffa037;
-  border: none;
-  padding: 0.75rem;
-  border-radius: 0.625rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    background-color: #ffeea9;
+    color: #ffa037;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .contact-section button:hover {
-  background-color: #f9e79f;
+    background-color: #f9e79f;
 }
 
 footer {
-  background-color: #ffeea9;
-  padding: 2rem 1rem;
-  text-align: center;
-  font-weight: bold;
+    background-color: #ffeea9;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 footer h3 {
-  color: #ffa037;
-  margin-bottom: 1rem;
+    color: #ffa037;
+    margin-bottom: 1rem;
 }
 
 footer ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 footer ul li a {
-  text-decoration: none;
-  color: #ffa037;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: #ffa037;
+    transition: color 0.3s ease;
 }
 
 footer ul li a:hover {
-  color: #f5b060;
+    color: #f5b060;
 }
 
 footer ul li a:hover {
-  color: #f5b060;
+    color: #f5b060;
 }
 
 .about-section {
-  text-align: center;
-  padding: 4rem 1rem;
+    text-align: center;
+    padding: 4rem 1rem;
 }
 
 .about-section h2 {
-  color: #ffa037;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+    color: #ffa037;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  background: none;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  max-width: 1100px;
-  margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .author-image {
-  width: 300px;
-  height: auto;
-  border-radius: 1rem;
-  transition: transform 0.3s ease;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
 }
 
 .author-image:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .about-text {
-  background: #ffeea9;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 1.25rem;
-  color: #ff7d29;
-  line-height: 1.7;
-  text-align: justify;
-  max-width: 600px;
+    background: #ffeea9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem;
+    color: #ff7d29;
+    line-height: 1.7;
+    text-align: justify;
+    max-width: 600px;
 }
 
 .resources-page {
-  padding: 4rem 1rem;
-  text-align: center;
+    padding: 4rem 1rem;
+    text-align: center;
 }
 
 .resources-page h2 {
-  color: #ffa037;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+    color: #ffa037;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .audio-section {
-  background-color: #fff7d1;
-  padding: 4rem 2rem;
-  text-align: center;
+    background-color: #fff7d1;
+    padding: 4rem 2rem;
+    text-align: center;
 }
 
 .audio-section h2 {
-  color: #ffa037;
-  font-size: 3rem;
-  margin-bottom: 1rem;
+    color: #ffa037;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .audio-intro {
-  font-size: 1.25rem;
-  color: #666;
-  margin-bottom: 3rem;
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 3rem;
 }
 
 .audio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .audio-card {
-  background-color: #ffeea9;
-  border: 1px solid #ffa037;
-  border-radius: 1rem;
-  width: 20rem;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ffeea9;
+    border: 1px solid #ffa037;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .audio-card:hover {
-  background-color: #f9e79f;
-  transform: translateY(-5px);
+    background-color: #f9e79f;
+    transform: translateY(-5px);
 }
 
 .audio-card iframe {
-  width: 100%;
-  border-radius: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
 }
 
 .audio-card h3 {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  color: #ff7d29;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #ff7d29;
 }
 
 .illustrated-section {
-  background-color: #fff7d1;
-  padding: 4rem 2rem;
-  text-align: center;
+    background-color: #fff7d1;
+    padding: 4rem 2rem;
+    text-align: center;
 }
 
 .illustrated-section h2 {
-  font-size: 3rem;
-  color: #ffa037;
-  margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #ffa037;
+    margin-bottom: 2rem;
 }
 
 .illustrated-block {
-  margin: 2rem 0;
-  background-color: #ffeea9;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 2rem 0;
+    background-color: #ffeea9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .illustrated-block h3 {
-  color: #ff7d29;
-  margin-bottom: 1rem;
+    color: #ff7d29;
+    margin-bottom: 1rem;
 }
 
 .illustrated-block p {
-  font-size: 1.125rem;
-  color: #555;
+    font-size: 1.125rem;
+    color: #555;
 }
 
 .quote {
-  background: #fffce8;
-  font-style: italic;
-  padding: 2rem;
-  margin: 3rem auto;
-  border-left: 5px solid #ffa037;
-  max-width: 700px;
-  color: #555;
-  border-radius: 10px;
+    background: #fffce8;
+    font-style: italic;
+    padding: 2rem;
+    margin: 3rem auto;
+    border-left: 5px solid #ffa037;
+    max-width: 700px;
+    color: #555;
+    border-radius: 10px;
 }
 
 .illustrated-image {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  margin: 2rem auto;
-  display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 2rem auto;
+    display: block;
 }
 
 .book-image {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 0.75rem;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-  margin: 2rem auto;
-  display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    display: block;
 }
 
 .educational-section {
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: #fff7d1;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff7d1;
 }
 
 .edu-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .edu-card {
-  background-color: #ffeea9;
-  border: 1px solid #ffa037;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  width: 18rem;
-  min-height: 24rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffeea9;
+    border: 1px solid #ffa037;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 18rem;
+    min-height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .edu-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .edu-image {
-  width: 100%;
-  height: auto;
-  border-radius: 0.75rem;
-  margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .download-link {
-  display: inline-block;
-  margin: 1rem 0;
-  color: #ffa037;
-  font-weight: bold;
-  text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0;
+    color: #ffa037;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .download-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .edu-card h3 {
-  font-size: 1.25rem;
-  color: #333;
-  margin: 0.5rem 0 0.25rem;
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0.5rem 0 0.25rem;
 }
 
 .edu-card p {
-  color: #666;
-  font-size: 1rem;
+    color: #666;
+    font-size: 1rem;
 }
