@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 .hero {
 
-   background-image: url("./image.png");
+   background-image: url("./image/hero.png");
     background-size: cover;
     background-position: center;
     position: relative;
