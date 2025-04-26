@@ -2,59 +2,59 @@
     margin: 0;
     padding: 0;
     /*box-sizing: border-box; */
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-  
-  body {
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
     font-family: 'Poppins', Arial, sans-serif;
     padding: 1rem;
     background: #fffce8;
     color: #333;
     line-height: 1.6;
     font-size: 1rem;
-  }
-  
-  header {
+}
+
+header {
     background-color: #ffeea9;
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .logo {
+}
+
+.logo {
     height: 3.125rem;
     border-radius: 50%;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     gap: 1.5rem;
     list-style: none;
     justify-content: center;
     flex-grow: 1;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #ffa037;
     font-size: 1.5rem;
     transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     color: #f5b060;
-  }
-  
-  .hero {
+}
+
+.hero {
     background-image: url("./image/hero.png");
     background-size: cover;
     background-position: center;
@@ -63,15 +63,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     color: white;
     font-size: 4rem;
     max-width: 90%;
-  }
-  
-  .hero button {
+}
+
+.hero button {
     background-color: #ffa037;
     color: white;
     font-size: 1.25rem;
@@ -81,32 +81,32 @@
     cursor: pointer;
     margin-top: 1rem;
     transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .hero button:hover {
+}
+
+.hero button:hover {
     background-color: #f5b060;
     transform: scale(1.05);
-  }
-  
-  .books-section {
+}
+
+.books-section {
     text-align: center;
     padding: 4rem 1rem;
-  }
-  
-  .books-section h2 {
+}
+
+.books-section h2 {
     margin-bottom: 2rem;
     color: #ffa037;
     font-size: 2.5rem;
-  }
-  
-  .book-container {
+}
+
+.book-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-  }
-  
-  .book-card {
+}
+
+.book-card {
     background-color: #ffeea9;
     border: 1px solid #ffa037;
     border-radius: 0.625rem;
@@ -118,34 +118,34 @@
     align-items: center;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .book-card:hover {
+}
+
+.book-card:hover {
     background-color: #f9e79f;
     transform: translateY(-5px);
-  }
-  
-  .book-card img {
+}
+
+.book-card img {
     width: 100%;
     height: 25rem;
     object-fit: cover;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
-  }
-  
-  .book-card h3 {
+}
+
+.book-card h3 {
     color: #ffa037;
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .book-card p {
+}
+
+.book-card p {
     font-size: 0.875rem;
     margin-top: 0.5rem;
     color: #333;
-  }
-  
-  .books-section-bookscreen {
+}
+
+.books-section-bookscreen {
     background: #fff7d1;
     padding: 1.25rem;
     border-radius: 0.625rem;
@@ -155,9 +155,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
-  }
-  
-  .book-card-bookscreen {
+}
+
+.book-card-bookscreen {
     background: #fff3c4;
     border-radius: 0.9375rem;
     padding: 0.75rem;
@@ -168,37 +168,37 @@
     align-items: center;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .book-card-bookscreen:hover {
+}
+
+.book-card-bookscreen:hover {
     background-color: #f9e79f;
     transform: translateY(-5px);
-  }
-  
-  .book-card-bookscreen img {
+}
+
+.book-card-bookscreen img {
     width: 100%;
     height: 25rem;
     object-fit: cover;
     border-radius: 0.625rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .book-title-bookscreen {
+}
+
+.book-title-bookscreen {
     color: orange;
     margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: bold;
-  }
-  
-  .book-desc-bookscreen {
+}
+
+.book-desc-bookscreen {
     font-size: 0.875rem;
     color: #c07d47;
     margin-bottom: 0.5rem;
     padding: 0 0.5rem;
     overflow: hidden;
-  }
-  
-  .buy-button-bookscreen {
+}
+
+.buy-button-bookscreen {
     background-color: orange;
     border: none;
     color: white;
@@ -207,20 +207,20 @@
     font-size: 0.875rem;
     cursor: pointer;
     margin-top: auto;
-  }
-  
-  .interview-section {
+}
+
+.interview-section {
     padding: 4rem 1rem;
     text-align: center;
-  }
-  
-  .interview-section h2 {
+}
+
+.interview-section h2 {
     color: #ffa037;
     font-size: 2.5rem;
     margin-bottom: 2rem;
-  }
-  
-  .interview-cards {
+}
+
+.interview-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -228,9 +228,9 @@
     padding: 2rem;
     justify-content: center;
     border-radius: 1rem;
-  }
-  
-  .interview-card {
+}
+
+.interview-card {
     background-color: white;
     border: 1px solid #ffa037;
     border-radius: 0.625rem;
@@ -239,39 +239,39 @@
     flex: 1 1 20rem;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .interview-card:hover {
+}
+
+.interview-card:hover {
     background-color: #f9e79f;
     transform: translateY(-5px);
-  }
-  
-  .interview-content {
+}
+
+.interview-content {
     display: flex;
     align-items: center;
     gap: 1rem;
     justify-content: center;
-  }
-  
-  .icon {
+}
+
+.icon {
     width: 2rem;
     height: auto;
-  }
-  
-  .contact-section {
-   
-    
+}
+
+.contact-section {
+
+
     text-align: center;
     padding: 4rem 1rem;
-  }
-  
-  .contact-section h2 {
+}
+
+.contact-section h2 {
     color: #ffa037;
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .contact-section form {
+}
+
+.contact-section form {
     background-color: #ffbf78;
     display: flex;
     flex-direction: column;
@@ -280,18 +280,18 @@
     border-radius: 1.5rem;
     max-width: 30rem;
     margin: 0 auto;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);   
-  }
-  
-  .contact-section input,
-  .contact-section textarea {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section input,
+.contact-section textarea {
     padding: 0.75rem;
     border-radius: 0.625rem;
     border: none;
     background: #fff;
-  }
-  
-  .contact-section button {
+}
+
+.contact-section button {
     background-color: #ffeea9;
     color: #ffa037;
     border: none;
@@ -299,37 +299,37 @@
     border-radius: 0.625rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .contact-section button:hover {
+}
+
+.contact-section button:hover {
     background-color: #f9e79f;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #ffeea9;
     padding: 2rem 1rem;
     text-align: center;
-  }
-  
-  footer h3 {
+}
+
+footer h3 {
     color: #ffa037;
     margin-bottom: 1rem;
-  }
-  
-  footer ul {
+}
+
+footer ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
-  }
-  
-  footer ul li a {
+}
+
+footer ul li a {
     text-decoration: none;
     color: #ffa037;
     transition: color 0.3s ease;
-  }
-  
-  footer ul li a:hover {
+}
+
+footer ul li a:hover {
     color: #f5b060;
-  }
+}
