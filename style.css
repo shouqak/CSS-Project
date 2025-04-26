@@ -5,15 +5,15 @@
 
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background: #fdf6e3;
-    color: #212121;
+    background: #fffaf0;
+    color: #5c4033;
     line-height: 1.6;
     overflow-x: hidden;
     margin: auto;
 }
 
 header {
-    background-color: #ffe082;
+    background-color: #fef3e2;
     padding: 0.75rem 2rem;
     position: sticky;
     top: 0;
@@ -47,13 +47,13 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #f57c00;
+    color: #b3541e;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffb74d;
+    color: #f4a261;
 }
 
 .hero {
@@ -79,7 +79,7 @@ nav ul li a:hover {
 }
 
 .hero button {
-    background: linear-gradient(135deg, #f57c00, #ff7d29);
+    background: linear-gradient(135deg, #b3541e, #b3541e);
     color: white;
     font-size: 1.25rem;
     padding: 0.75rem 2rem;
@@ -91,12 +91,12 @@ nav ul li a:hover {
 }
 
 .hero button:hover {
-    background: linear-gradient(135deg, #ffb74d, #ff8f4d);
+    background: linear-gradient(135deg, #f4a261, #ff8f4d);
     transform: translateY(-3px) scale(1.05);
 }
 
 .hero button:hover {
-    background-color: #ffb74d;
+    background-color: #f4a261;
     transform: scale(1.05);
 }
 
@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .books-section h2 {
     margin-bottom: 2rem;
-    color: #f57c00;
+    color: #b3541e;
     font-size: 2.5rem;
 }
 
@@ -122,8 +122,8 @@ nav ul li a:hover {
 }
 
 .book-card {
-    background-color: #fff3c4;
-    border: 1px solid #f57c00;
+    background-color: #fef3e2;
+    border: 1px solid #b3541e;
     border-radius: 0.9375rem;
     padding: 1rem;
     width: 300px;
@@ -136,7 +136,7 @@ nav ul li a:hover {
 }
 
 .book-card:hover {
-    background-color: #f9e79f;
+    background-color: #f4d7a0;
     transform: translateY(-5px);
 }
 
@@ -149,7 +149,7 @@ nav ul li a:hover {
 }
 
 .book-title {
-    color: orange;
+    color: b3541e;
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
@@ -161,7 +161,7 @@ nav ul li a:hover {
 
 .book-desc {
     font-size: 0.9rem;
-    color: #c07d47;
+    color: #5c4033;
     padding: 0 0.5rem;
     margin-bottom: 1rem;
     overflow: hidden;
@@ -169,9 +169,9 @@ nav ul li a:hover {
 }
 
 .buy-button {
-    background-color: orange;
+    background-color:#b3541e ;
     border: none;
-    color: white;
+    color: #fffaf0 ;
     padding: 0.5rem 1.5rem;
     border-radius: 2rem;
     font-size: 0.9rem;
@@ -181,7 +181,7 @@ nav ul li a:hover {
 }
 
 .buy-button:hover {
-    background-color: #ffb74d;
+    background-color: #a03f14;
 }
 
 .interview-section {
@@ -190,7 +190,7 @@ nav ul li a:hover {
 }
 
 .interview-section h2 {
-    color: #f57c00;
+    color: #b3541e;
     font-size: 2.75rem;
     margin-bottom: 2rem;
     font-weight: 700;
@@ -201,7 +201,7 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    background: linear-gradient(135deg, #ffbf78, #ffd9a3);
+    background: linear-gradient(135deg, #f4a261, #f7c59f);
     padding: 3rem 2rem;
     justify-content: center;
     border-radius: 1.5rem;
@@ -239,12 +239,12 @@ nav ul li a:hover {
     justify-content: center;
     margin-top: 1rem;
     font-size: 0.95rem;
-    color: #555;
+    color: #5c4033;
 }
 
 .interview-card h3 {
     font-size: 1.2rem;
-    color: #f57c00;
+    color: #b3541e;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -260,7 +260,7 @@ nav ul li a:hover {
 }
 
 .contact-section h2 {
-    color: #f57c00;
+    color: #b3541e;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -286,8 +286,8 @@ nav ul li a:hover {
 }
 
 .contact-section button {
-    background-color: #ffe082;
-    color: #f57c00;
+    background-color: #fef3e2;
+    color: #b3541e;
     border: none;
     padding: 0.75rem;
     border-radius: 0.625rem;
@@ -296,18 +296,18 @@ nav ul li a:hover {
 }
 
 .contact-section button:hover {
-    background-color: #f9e79f;
+    background-color: #f4d7a0;
 }
 
 footer {
-    background-color: #ffe082;
+    background-color: #fef3e2;
     padding: 2rem 1rem;
     text-align: center;
     font-weight: bold;
 }
 
 footer h3 {
-    color: #f57c00;
+    color: #b3541e;
     margin-bottom: 1rem;
 }
 
@@ -321,16 +321,16 @@ footer ul {
 
 footer ul li a {
     text-decoration: none;
-    color: #f57c00;
+    color: #b3541e;
     transition: color 0.3s ease;
 }
 
 footer ul li a:hover {
-    color: #ffb74d;
+    color: #f4a261;
 }
 
 footer ul li a:hover {
-    color: #ffb74d;
+    color: #f4a261;
 }
 
 .about-section {
@@ -339,7 +339,7 @@ footer ul li a:hover {
 }
 
 .about-section h2 {
-    color: #f57c00;
+    color: #b3541e;
     font-size: 3rem;
     margin-bottom: 2rem;
 }
@@ -367,12 +367,12 @@ footer ul li a:hover {
 }
 
 .about-text {
-    background: #ffe082;
+    background: #fef3e2;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     font-size: 1.25rem;
-    color: #ff7d29;
+    color: #b3541e;
     line-height: 1.7;
     text-align: justify;
     max-width: 600px;
@@ -384,19 +384,19 @@ footer ul li a:hover {
 }
 
 .resources-page h2 {
-    color: #f57c00;
+    color: #b3541e;
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
 .audio-section {
-    background-color: #fdf6e3;
+    background-color: #fffaf0;
     padding: 4rem 2rem;
     text-align: center;
 }
 
 .audio-section h2 {
-    color: #f57c00;
+    color: #b3541e;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
@@ -415,8 +415,8 @@ footer ul li a:hover {
 }
 
 .audio-card {
-    background-color: #ffe082;
-    border: 1px solid #f57c00;
+    background-color: #fef3e2;
+    border: 1px solid #b3541e;
     border-radius: 1rem;
     width: 20rem;
     padding: 1rem;
@@ -426,7 +426,7 @@ footer ul li a:hover {
 }
 
 .audio-card:hover {
-    background-color: #f9e79f;
+    background-color: #f4d7a0;
     transform: translateY(-5px);
 }
 
@@ -438,47 +438,47 @@ footer ul li a:hover {
 .audio-card h3 {
     margin-top: 1rem;
     font-size: 1.1rem;
-    color: #ff7d29;
+    color: #b3541e;
 }
 
 .illustrated-section {
-    background-color: #fdf6e3;
+    background-color: #fffaf0;
     padding: 4rem 2rem;
     text-align: center;
 }
 
 .illustrated-section h2 {
     font-size: 3rem;
-    color: #f57c00;
+    color: #b3541e;
     margin-bottom: 2rem;
 }
 
 .illustrated-block {
     margin: 2rem 0;
-    background-color: #ffe082;
+    background-color: #fef3e2;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .illustrated-block h3 {
-    color: #ff7d29;
+    color: #b3541e;
     margin-bottom: 1rem;
 }
 
 .illustrated-block p {
     font-size: 1.125rem;
-    color: #555;
+    color: #5c4033;
 }
 
 .quote {
-    background: #fdf6e3;
+    background: #fffaf0;
     font-style: italic;
     padding: 2rem;
     margin: 3rem auto;
-    border-left: 5px solid #f57c00;
+    border-left: 5px solid #b3541e;
     max-width: 700px;
-    color: #555;
+    color: #5c4033;
     border-radius: 10px;
 }
 
@@ -505,7 +505,7 @@ footer ul li a:hover {
 .educational-section {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #fdf6e3;
+    background-color: #fffaf0;
 }
 
 .edu-grid {
@@ -517,8 +517,8 @@ footer ul li a:hover {
 }
 
 .edu-card {
-    background-color: #ffe082;
-    border: 1px solid #f57c00;
+    background-color: #fef3e2;
+    border: 1px solid #b3541e;
     border-radius: 1rem;
     padding: 1.5rem;
     width: 18rem;
@@ -547,7 +547,7 @@ footer ul li a:hover {
 .download-link {
     display: inline-block;
     margin: 1rem 0;
-    color: #f57c00;
+    color: #b3541e;
     font-weight: bold;
     text-decoration: none;
 }
@@ -558,7 +558,7 @@ footer ul li a:hover {
 
 .edu-card h3 {
     font-size: 1.25rem;
-    color: #212121;
+    color: #5c4033;
     margin: 0.5rem 0 0.25rem;
 }
 
