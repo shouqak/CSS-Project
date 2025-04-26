@@ -1,61 +1,73 @@
 * {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #feffd2;
-  color: #212121;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fffaf0;
+  color: #5c4033;
+  line-height: 1.6;
+  overflow-x: hidden;
+  margin: auto;
 }
 
 header {
-  background-color: #ffe082;
-  padding: 10px 20px;
+  background-color: #fef3e2;
+  padding: 0.75rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo {
-  height: 50px;
+  height: 4.125rem;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
   list-style: none;
   justify-content: center;
   flex-grow: 1;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  font-weight: bold;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #f57c00;
+  color: #b3541e;
   font-size: 1.5rem;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #ffb74d;
+  color: #f4a261;
 }
 
 .interview {
-  padding: 3rem 0;
+  padding: 4rem 1rem;
   text-align: center;
 }
 
 .interview h2 {
-  color: #f57c00;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  color: #b3541e;
+  font-size: 2.75rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .interview-content {
@@ -64,22 +76,23 @@ nav ul li a:hover {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
   gap: 2rem;
 }
 
-
 .interview-image {
   width: 20%;
-  height: 50%;
-  border-radius: 10px;
+  height: auto;
+  border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 .interview-text {
   text-align: left;
   max-width: 60%;
   line-height: 1.8;
+  font-size: 1.1rem;
+  color: #5c4033;
 }
 
 .interview-text p {
@@ -87,36 +100,36 @@ nav ul li a:hover {
 }
 
 .interview-text span {
-  color: #f57c00;
+  color: #b3541e;
   font-weight: bold;
 }
 
 footer {
-  background-color: #ffe082;
+  background-color: #fef3e2;
+  padding: 2rem 1rem;
   text-align: center;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-weight: bold;
 }
 
 footer h3 {
-  color: #f57c00;
-  margin: 1% 0;
+  color: #b3541e;
+  margin-bottom: 1rem;
 }
 
 footer ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 footer ul li a {
   text-decoration: none;
-  color: #f57c00;
+  color: #b3541e;
+  transition: color 0.3s ease;
 }
 
 footer ul li a:hover {
-  color: #ffb74d;
+  color: #f4a261;
 }
