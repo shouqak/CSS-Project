@@ -7,11 +7,11 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #feffd2;
-  color: #333;
+  color: #212121;
 }
 
 header {
-  background-color: #ffeea9;
+  background-color: #ffe082;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -39,12 +39,12 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffa037;
+  color: #f57c00;
   font-size: 1.5rem;
 }
 
 nav ul li a:hover {
-  color: #f5b060;
+  color: #ffb74d;
 }
 
 .interview {
@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 .interview h2 {
-  color: #ffa037;
+  color: #f57c00;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -87,12 +87,12 @@ nav ul li a:hover {
 }
 
 .interview-text span {
-  color: #ffa037;
+  color: #f57c00;
   font-weight: bold;
 }
 
 footer {
-  background-color: #ffeea9;
+  background-color: #ffe082;
   text-align: center;
   height: 20vh;
   display: flex;
@@ -101,7 +101,7 @@ footer {
 }
 
 footer h3 {
-  color: #ffa037;
+  color: #f57c00;
   margin: 1% 0;
 }
 
@@ -114,9 +114,9 @@ footer ul {
 
 footer ul li a {
   text-decoration: none;
-  color: #ffa037;
+  color: #f57c00;
 }
 
 footer ul li a:hover {
-  color: #f5b060;
+  color: #ffb74d;
 }
