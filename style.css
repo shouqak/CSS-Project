@@ -380,5 +380,194 @@ footer ul li a:hover {
     max-width: 600px;
   }
   
+.resources-page {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .resources-page h2 {
+    color: #ffa037;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .audio-section {
+    background-color: #fff7d1;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .audio-section h2 {
+    color: #ffa037;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .audio-intro {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 3rem;
+  }
+  
+  .audio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .audio-card {
+    background-color: #ffeea9;
+    border: 1px solid #ffa037;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .audio-card:hover {
+    background-color: #f9e79f;
+    transform: translateY(-5px);
+  }
+  
+  .audio-card iframe {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .audio-card h3 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #ff7d29;
+  }
+  
+  .illustrated-section {
+    background-color: #fff7d1;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .illustrated-section h2 {
+    font-size: 3rem;
+    color: #ffa037;
+    margin-bottom: 2rem;
+  }
+  
+  .illustrated-block {
+    margin: 2rem 0;
+    background-color: #ffeea9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .illustrated-block h3 {
+    color: #ff7d29;
+    margin-bottom: 1rem;
+  }
+  
+  .illustrated-block p {
+    font-size: 1.125rem;
+    color: #555;
+  }
+  
+  .quote {
+    background: #fffce8;
+    font-style: italic;
+    padding: 2rem;
+    margin: 3rem auto;
+    border-left: 5px solid #ffa037;
+    max-width: 700px;
+    color: #555;
+    border-radius: 10px;
+  }
+  .illustrated-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 2rem auto;
+    display: block;
+  }
+  .book-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    display: block;
+  }
+  
+  
+  .educational-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff7d1;
 
+  }
+  
+  .edu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .edu-card {
+    background-color: #ffeea9;
+    border: 1px solid #ffa037;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 18rem; 
+    min-height: 24rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .edu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+  
+  .edu-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin: 1rem 0;
+    color: #ffa037;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .download-link:hover {
+    text-decoration: underline;
+  }
+  
+  .edu-card h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0.5rem 0 0.25rem;
+  }
+  
+  .edu-card p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
   
