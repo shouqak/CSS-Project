@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     margin: auto;
+    width: 100%;
 }
 
 header {
@@ -257,7 +258,6 @@ nav ul li a:hover {
 
 .contact-section {
     text-align: center;
-    width: 100%;
     padding: 2rem 1rem;
 }
 
@@ -268,10 +268,10 @@ nav ul li a:hover {
 }
 
 .contact-section form {
-    width: 90%; 
+    width: 100%; 
     max-width: 40rem; 
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     box-sizing: border-box; 
     background-color: #fef3e2;
     border: 2px solid #b3541e;
